@@ -1,7 +1,6 @@
-# Simple Website Using Github Pages
-Make a simple HTML website and publish it using Github Pages.  
-View example: https://cplmakerlab.github.io/simple-website-template/
+# SWE++ Website!!
 
+## ------------------- Copied from Template -------------------
 ## Setup
 - Create a Github account (if you don't have one yet)
 - Fork this repository to copy it to your account, i.e. github.com/username/simple-website-template (you can rename it as well)
