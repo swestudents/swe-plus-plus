@@ -30,8 +30,8 @@ body {
 }
 
 .navbar-light .navbar-nav .active {
+  font-weight: bold;
   color: #333333 !important;
-  border-bottom: 2px solid #E9D7FD;
 }
 
 .content {
