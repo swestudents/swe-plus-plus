@@ -1,4 +1,5 @@
 
+/* --------------------------- Basic Template CSS --------------------------- */
 body {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
@@ -64,3 +65,130 @@ body {
   color: #333333;
   margin: 0;
 }
+
+.footer-link {
+  color: #8A2BE2; 
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #7A1FA2; 
+  text-decoration: underline;
+}
+
+/* --------------------------- Home Page CSS --------------------------- */
+
+/* Purple Top Box */
+.header-box {
+  background-color: rgba(75, 0, 130, 0.4);
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100vw - 60px);
+  margin: 20px auto; 
+  border-radius: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap; 
+}
+
+.header-box-image {
+  max-width: 300px;
+  flex-shrink: 0;
+  margin-right: 20px;
+  transform: rotate(-10deg);
+}
+
+.header-box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: right;
+  flex: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .header-box {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-box-text {
+    text-align: center;
+    padding-right: 0;
+  }
+}
+
+.header-box-title {
+  font-size: 10rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-box-subtitle {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.header-box-school {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Main Description Area */
+
+.home-page .content {
+  padding-left: 20px; 
+  padding-right: 20px; 
+  max-width: calc(100vw - 70px); 
+  margin: 0 auto; 
+}
+
+.home-page .content h1 {
+  color: #674e7e; 
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.home-page .content p {
+  color: #674e7e; 
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.home-page .red-text {
+  color: red; 
+}
+
+.home-page .bright-purple-link {
+  color: #8A2BE2;
+  font-weight: bold; 
+  text-decoration: none; 
+}
+
+.home-page .bright-purple-link:hover {
+  color: #7A1FA2; 
+  text-decoration: underline; 
+}
+
+
+/* --------------------------- About Us CSS --------------------------- */
+
+
+
+/* --------------------------- Students CSS --------------------------- */
+
+
+
+/* --------------------------- Application CSS --------------------------- */
+
+
+
+/* --------------------------- Gallery CSS --------------------------- */
