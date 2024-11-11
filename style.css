@@ -180,19 +180,98 @@ body {
 
 
 /* --------------------------- About Us CSS --------------------------- */
+.about-page .header{
+  font-weight: bold;
+  color:rgba(75, 0, 130, 0.4);
+}
+.about-page {
+  background-color: #f0e6fc;
+}
+
+.profile-box {
+  background-color: rgba(75, 0, 130, 0.4);
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: calc(100vw - 60px);
+  margin: 20px auto; 
+  border-radius: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap; 
+}
+
+.profile-box-title {
+  text-decoration: underline;
+}
+
+.profile-box-image {
+  max-width: 300px;
+  flex-shrink: 0;
+  margin-right: 20px;
+  border: 5px solid white;
+}
+
+.profile-box-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: left;
+  flex: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .profile-box {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-box-text {
+    text-align: center;
+    padding-right: 0;
+  }
+}
 .about-page .profile_image {
   width: 300px;
   height: 300px;
-  border: 2px solid #7A1FA2;
+  border: 2px solid #af6cfc;
 }
 .about-page .profile-name {
   font-weight: bold;
   text-decoration: underline;
-  color: #7A1FA2;
+  color: #af6cfc;
   margin: 0;
 }
 .about-page .profile-description {
-  color:#8A2BE2;
+  color:#a458fc; 
+}
+
+.about-page .profile_image {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.about-page .profile-name {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.about-page .profile-description {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 
