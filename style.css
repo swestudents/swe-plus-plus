@@ -373,7 +373,101 @@ body {
 }
 
 /* --------------------------- Students CSS --------------------------- */
+.students-page .header {
+  color: #674e7e;
+  text-align: center;
+}
 
+.students-page .content h1 {
+  color: #674e7e;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.students-page .content p {
+  color: #674e7e;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Container for testimonials and timeline */
+.students-page .testimonial-timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Testimonials Row */
+.students-page .testimonial-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+}
+
+.students-page .testimonial {
+  width: 45%;
+  text-align: center;
+}
+
+.students-page .testimonial img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px; /* Rounded box shape */
+  margin-bottom: 10px;
+  object-fit: cover; /* Ensures image fills the box without distortion */
+}
+
+.students-page .testimonial p {
+  font-style: italic;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* Horizontal Timeline */
+.students-page .timeline {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px 0;
+  max-width: 100%;
+}
+
+.students-page .timeline::before, 
+.students-page .timeline::after {
+  content: "";
+  flex: 1;
+}
+
+.students-page .timeline-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.students-page .timeline-entry .dot {
+  width: 20px;
+  height: 20px;
+  background-color: #9c27b0;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.students-page .timeline-content {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 6px;
+  width: 120px;
+}
 
 
 /* --------------------------- Gallery CSS --------------------------- */
