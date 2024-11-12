@@ -6,80 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <style>
-    .text-purple {
-      color: #9c27b0;
-    }
-    .content {
-      padding: 20px;
-    }
-    /* Container for testimonials and timeline */
-    .testimonial-timeline-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-    }
-    /* Testimonials Row */
-    .testimonial-row {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      max-width: 900px;
-    }
-    .testimonial {
-      width: 45%;
-      text-align: center;
-    }
-    .testimonial img {
-      width: 100%;
-      max-width: 200px;
-      height: auto;
-      border-radius: 50%;
-      margin-bottom: 10px;
-    }
-    .testimonial p {
-      font-style: italic;
-      background-color: #f8f9fa;
-      padding: 15px;
-      border-radius: 6px;
-    }
-    /* Horizontal Timeline */
-    .timeline {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      overflow-x: auto;
-      padding: 20px 0;
-      max-width: 100%;
-    }
-    .timeline::before, .timeline::after {
-      content: "";
-      flex: 1;
-    }
-    .timeline-entry {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      position: relative;
-    }
-    .timeline-entry .dot {
-      width: 20px;
-      height: 20px;
-      background-color: #9c27b0;
-      border-radius: 50%;
-      margin-bottom: 10px;
-    }
-    .timeline-content {
-      background-color: #f8f9fa;
-      padding: 10px;
-      border-radius: 6px;
-      width: 120px;
-    }
-  </style>
 </head>
-<body>
+<body class="students-page">
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
     <a class="navbar-brand text-purple" href="index.html">SWE++</a>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -113,7 +41,7 @@
         </div>
         <div class="testimonial">
           <img src="athena.jpg" alt="Student image">
-          <p>- Athena</p>
+          <p>“The SWE++ program opened my eyes to the world of coding and technology. I was able to make friends, learn valuable skills, and gain confidence in a field I never thought I could succeed in.” - Athena</p>
         </div>
       </div>
 
@@ -193,14 +121,14 @@
     </div>
   </main>
 
- <!-- Footer -->
- <footer class="footer">
-  <div class="footer-content">
-    <p class="footer-text">&copy; SWE++ at SJSU</p>
-    <p><strong>Official SWE Website:</strong> <a href="https://sites.swe.org/sanjosestateuniversity/" target="_blank" class="footer-link">Click Here</a></p>
-  </div>
-</footer>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-text">&copy; SWE++ at SJSU</p>
+      <p><strong>Official SWE Website:</strong> <a href="https://sites.swe.org/sanjosestateuniversity/" target="_blank" class="footer-link">Click Here</a></p>
+    </div>
+  </footer>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
