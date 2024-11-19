@@ -307,7 +307,7 @@ body {
 
 .application-page .header{
   color: #674e7e;
-  text-align: left;
+  text-align: center;
 }
 
 .application-page .info-box {
@@ -373,6 +373,7 @@ body {
 }
 
 /* --------------------------- Students CSS --------------------------- */
+
 .students-page .header {
   color: #674e7e;
   text-align: center;
@@ -468,7 +469,6 @@ body {
   border-radius: 6px;
   width: 120px;
 }
-
 
 /* --------------------------- Gallery CSS --------------------------- */
 
