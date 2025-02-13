@@ -1,5 +1,7 @@
 # SWE++ Website!!
 
+https://swe-plus-plus-sjsu.github.io/swe-plus-plus-sjsu-website/index.html
+
 ## ------------------- Copied from Template -------------------
 ## Setup
 - Create a Github account (if you don't have one yet)
